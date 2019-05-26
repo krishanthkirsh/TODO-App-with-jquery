@@ -1,0 +1,15 @@
+li button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+	bottom:5px;
+}
+.jumbotron {
+  background: #4CAF50;
+}
+p { 
+ color: #ffffff; 
+}
+body {
+background: #fbfbfb;
+} 

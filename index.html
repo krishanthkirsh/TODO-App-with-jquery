@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="./js/todo.js"></script>
+  <link href="css/todostylesheet.css" rel="stylesheet">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center text-capitalize">
+  <h1 style="color:white;">TODO Application</h1>
+  <p>Seeing a clear outline of your completed and uncompleted tasks!</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      
+    </div>
+    <div class="col-sm-6">
+	  <div class="form-group form-group-lg">
+	  <input type="text" class="form-control" id="todotextbox" placeholder="Enter The Todo">
+	</div>
+	 <div class="well well-lg">
+	 <ul id="todolist" class="list-group">
+	<!-- 	<li class="list-group-item active">First item</li>
+		<li class="list-group-item">Second item</li>
+		<li class="list-group-item">Third item</li> -->
+	</ul>
+	<div class="text-center">
+	<ul id="pagin" class="pagination pagination-lg">
+		<li><a class="active" href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+	</ul>
+	</div>
+	</div>	
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
